@@ -119,7 +119,7 @@ const zh_CN = {
     choose_files_dec: "选择需要解密的文件", // Choose files to decrypt
     sender_key_loaded: "发送者公钥已载入，请选择需要解密的文件", // Sender's public key is loaded, please select the encrypted file.
     recipient_key_loaded: "接收者公钥已载入，请选择需要需要加密的文件", // Recipient's public key is loaded, please select a file to encrypt.
-    file_not_encrypted_corrupted: "该文件不是使用 hat.sh 加密的，或者文件已损坏！", // This file was not encrypted using hat.sh or the file may be corrupted!
+    file_not_encrypted_corrupted: "该文件不是使用 Secure.sh 加密的，或者文件已损坏！", // This file was not encrypted using hat.sh or the file may be corrupted!
     old_version: "文件由老版本 hat.sh 加密，访问 v1 版本来解密", // This file was encrypted using an older version of hat.sh, you can decrypt this file by visiting the v1 app.
     file_mixup: "“解铃还需系铃人”，文件的加密解密方法必须保持一致，请选择相匹配的文件", // Files selected for decryption have to be encrypted using the same method, either by password or public key. Choose files that match.
     enter_password_dec: "输入解密密码", // Enter the decryption password
