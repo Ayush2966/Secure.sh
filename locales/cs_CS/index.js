@@ -119,7 +119,7 @@ const cs_CS = {
   choose_files_dec: "Vybrat soubory k dešifrování",
   sender_key_loaded: "Veřejný klíč odesílatele načten, prosím vyberte zašifrovaný soubor.",
   recipient_key_loaded: "Veřejný klíč příjemce načten, prosím vyberte soubor k zašifrování.",
-  file_not_encrypted_corrupted: "Soubor nebyl zašifrován pomocí hat.sh, nebo je požkozen!",
+  file_not_encrypted_corrupted: "Soubor nebyl zašifrován pomocí Secure.sh, nebo je požkozen!",
   old_version: "Soubor byl zašifrován starší verzí hat.sh, navštivte verzi v1 pro dešifrování.",
   file_mixup: "Vybrané soubory pro dešifrování musí být zašifrovány stejnou metodou, heslem nebo veřejným klíčem. Vyberte odpovídající soubory.",
   enter_password_dec: "Vložte heslo pro dešifrování",
