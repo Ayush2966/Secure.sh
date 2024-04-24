@@ -119,7 +119,7 @@ const en_US = {
   choose_files_dec: "Choose files to decrypt",
   sender_key_loaded: "Sender's public key is loaded, please select the encrypted file.",
   recipient_key_loaded: "Recipient's public key is loaded, please select a file to encrypt.",
-  file_not_encrypted_corrupted: "This file was not encrypted using hat.sh or the file may be corrupted!",
+  file_not_encrypted_corrupted: "This file was not encrypted using Secure.sh or the file may be corrupted!",
   old_version: "This file was encrypted using an older version of hat.sh, you can decrypt this file by visiting the v1 app.",
   file_mixup: "Files selected for decryption have to be encrypted using the same method, either by password or public key. Choose files that match.",
   enter_password_dec: "Enter the decryption password",
