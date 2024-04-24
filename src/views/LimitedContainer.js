@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import NavAppBar from "../components/AppBar";
 import Hero from "../components/Hero";
 import LimitedPanels from "../components/limited/LimitedPanels";
-import Footer from "../components/Footer";
+
 
 const useStyles = makeStyles((theme) => ({
   body: {
@@ -21,7 +21,7 @@ const LimitedContainer = () => {
       <NavAppBar />
       <Hero />
       <LimitedPanels />
-      <Footer />
+     
     </div>
   );
 };
