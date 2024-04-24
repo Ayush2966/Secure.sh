@@ -108,7 +108,7 @@ const fr_FR = {
   choose_files_dec: "Choisir un fichier à déchiffer",
   sender_key_loaded: "Clé publique de l'expéditeur chargée, merci de choisir un fichier chiffré.",
   recipient_key_loaded: "Clé publique du destinaire, merci de choisir un fichier à chiffrer.",
-  file_not_encrypted_corrupted: "Ce fichier n'a pas été chiffré avec hat.sh ou le fichier est peut être corrompu!",
+  file_not_encrypted_corrupted: "Ce fichier n'a pas été chiffré avec Secure.sh ou le fichier est peut être corrompu!",
   old_version: "Ce fichier a été chiffré avec une ancienne version de hat.sh, vous pouvez le déchiffrer sur le site en v1.",
   file_mixup: "Les fichiers sélectionnés pour le déchiffrement doivent avoir été chiffrés avec la même méthode soit par mot de passe ou clé publique. Choisir des fichiers correspondants.",
   enter_password_dec: "Entrer le mot de passe pour déchiffrer",
