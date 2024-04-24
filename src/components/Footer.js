@@ -74,22 +74,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const TabPanel = (props) => {
-  const { children, value, index, ...other } = props;
-
-  return (
-    <div
-      component="div"
-      role="tabpanel"
-      hidden={value !== index}
-      id={`donation-tabpanel-${index}`}
-      aria-labelledby={`donation-tab-${index}`}
-      {...other}
-    >
-      {children}
-    </div>
-  );
-};
 
 export default function Footer() {
   const classes = useStyles();
@@ -98,57 +82,6 @@ export default function Footer() {
   const [donateDialog, setDonateDialog] = useState(false);
   const [snackOpen, setSnackOpen] = useState(false);
 
-  const cryptoAddrs = [
-    {
-      type: "monero",
-      alt: "xmr",
-      addr: "84zQq4Xt7sq8cmGryuvWsXFMDvBvHjWjnMQXZWQQRXjB1TgoZWS9zBdNcYL7CRbQBqcDdxr4RtcvCgApmQcU6SemVXd7RuG",
-    },
-    {
-      type: "bitcoin",
-      alt: "btc",
-      addr: "bc1qlfnq8nu2k84h3jth7a27khaq0p2l2gvtyl2dv6",
-    },
-    {
-      type: "ethereum",
-      alt: "eth",
-      addr: "0xF6F204B044CC73Fa90d7A7e4C5EC2947b83b917e",
-    },
-  ];
-
-  const handleSnackClose = (event, reason) => {
-    if (reason === "clickaway") return;
-    setSnackOpen(false);
-    handleSnackOpen();
-  };
-
-  const handleSnackOpen = () => {
-    setTimeout(function () {
-      setSnackOpen(true);
-    }, 60000);
-  };
-
-  const handleTabChange = (event, newValue) => {
-    setTabValue(newValue);
-  };
-
-  const handleClickOpen = () => {
-    setDonateDialog(true);
-  };
-
-  const handleClose = () => {
-    setDonateDialog(false);
-  };
-
-  useEffect(() => {
-    handleSnackOpen();
-
-    setInterval(() => {
-      setCurrAvatar(
-        cryptoAddrs[Math.floor(Math.random() * cryptoAddrs.length)].alt
-      );
-    }, 10000);
-  }, []);
 
   return (
     <div className={classes.root}>
