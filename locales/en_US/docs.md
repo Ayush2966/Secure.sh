@@ -122,7 +122,7 @@ docker run -d -p 3991:80 shdv/Secure.sh
 1. clone the github repository
 
 ```bash
-git clone https://github.com/Ayush2966
+git clone https://github.com/Ayush2966/Secure.sh
 ```
 
 2. move to the folder
@@ -150,7 +150,7 @@ docker run -d -p 3991:80 shdv/secure.sh
 1. clone the github repository
 
 ```bash
-git clone https://github.com/Ayush2966
+git clone https://github.com/Ayush2966/Secure.sh
 ```
 
 2. move to the folder
