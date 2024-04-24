@@ -1,7 +1,7 @@
 import { ThemeProvider } from "@material-ui/styles";
 import { Theme } from "../src/config/Theme";
 import NavAppBar from "../src/components/AppBar";
-import Footer from "../src/components/Footer";
+
 import Hero from "../src/components/Hero";
 import Container from "@material-ui/core/Container";
 import KeyPairGeneration from "../src/components/KeyPairGeneration";
@@ -27,7 +27,7 @@ const Generate = () => {
           <KeyPairGeneration opened={true} />
         </Container>
 
-        <Footer />
+      
       </div>
     </ThemeProvider>
   );
