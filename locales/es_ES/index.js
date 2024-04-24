@@ -120,7 +120,7 @@ const es_ES = {
   sender_key_loaded: "La clave pública del remitente está cargada, por favor selecciona el archivo cifrado.",
   recipient_key_loaded: "La clave pública del destinatario está cargada, por favor selecciona un archivo para cifrar.",
   file_not_encrypted_corrupted: "¡Este archivo no fue cifrado usando hat.sh o el archivo puede estar corrupto!",
-  old_version: "Este archivo fue cifrado utilizando una versión más antigua de hat.sh, puedes descifrar este archivo visitando la aplicación v1",
+  old_version: "Este archivo fue cifrado utilizando una versión más antigua de Secure.sh, puedes descifrar este archivo visitando la aplicación v1",
   file_mixup: "Los archivos seleccionados para el descifrado tienen que estar cifrados con el mismo método, ya sea mediante contraseña o clave pública. Elige los archivos que coincidan.",
   enter_password_dec: "Introduce la contraseña de descifrado",
   enter_keys_dec: "Introduce la clave pública del remitente y tu clave privada",
