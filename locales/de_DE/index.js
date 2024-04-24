@@ -120,7 +120,7 @@ const de_DE = {
   sender_key_loaded: "Der öffentliche Schlüssel des Absenders ist geladen, bitte wähle die verschlüsselte Datei aus.",
   recipient_key_loaded: "Der öffentliche Schlüssel des Empfängers ist geladen, bitte wähle eine zu verschlüsselnde Datei aus.",
   file_not_encrypted_corrupted: "Diese Datei wurde nicht mit hat.sh verschlüsselt oder die Datei ist beschädigt!",
-  old_version: "Diese Datei wurde mit einer älteren Version von hat.sh verschlüsselt; Du kannst diese Datei entschlüsseln, indem die Version 1 der App besuchst.",
+  old_version: "Diese Datei wurde mit einer älteren Version von Secure.sh verschlüsselt; Du kannst diese Datei entschlüsseln, indem die Version 1 der App besuchst.",
   file_mixup: "Die für die Entschlüsselung ausgewählten Dateien müssen mit der gleichen Methode verschlüsselt sein, entweder mit einem Passwort oder einem öffentlichen Schlüssel. Wähle die entsprechenden Dateien.",
   enter_password_dec: "Gib das Entschlüsselungs-Passwort ein.",
   enter_keys_dec: "Gib den öffentlichen Schlüssel des Absenders und deinen privaten Schlüssel ein",
