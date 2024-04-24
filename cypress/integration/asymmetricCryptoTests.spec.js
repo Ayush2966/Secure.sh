@@ -6,7 +6,6 @@
 import { currentVersion, APP_URL } from "../../src/config/Constants";
 import "cypress-file-upload";
 import "cypress-real-events/support";
-
 const path = require("path");
 const downloadsFolder = Cypress.config("downloadsFolder");
 
@@ -19,7 +18,7 @@ describe("Asymmetric encryption test", () => {
     cy.visit('/');
 
     //displays app title
-    cy.contains("Hat.sh");
+    cy.contains("Secure.sh");
 
     //runs the correct version
     cy.contains(currentVersion);

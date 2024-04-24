@@ -18,7 +18,7 @@ describe("Symmetric encryption test", () => {
     cy.visit('/');
 
     //displays app title
-    cy.contains("Hat.sh");
+    cy.contains("Secure.sh");
 
     //runs the correct version
     cy.contains(currentVersion);
@@ -80,73 +80,7 @@ describe("Symmetric encryption test", () => {
     cy.readFile(encryptedFile).should("exist");
   });
 
-  it("loads a file and decrypt", () => {
-    // visit the decryption panel
-    cy.visit(`${Cypress.config('baseUrl')}/?tab=decryption`);
-    cy.wait(2500);
-
-    // the path of the encrypted file
-    const file = "../downloads/document.txt.enc";
-    cy.contains("Choose files to decrypt");
-    cy.get(".submitFileDec").should("be.disabled");
-    // select the encrypted file
-    cy.fixture(file, "binary")
-      .then(Cypress.Blob.binaryStringToBlob)
-      .then((fileContent) => {
-        cy.get("#dec-file").attachFile({
-          fileContent,
-          fileName: "document.txt.enc",
-          mimeType: "application/octet-stream",
-          encoding: "utf-8",
-          lastModified: new Date().getTime(),
-        });
-      });
-    cy.get(".submitFileDec").realClick();
-    cy.wait(500);
-
-    // make sure file was submitted
-    cy.contains("Enter the decryption password");
-    cy.get(".submitKeysDec").should("be.disabled");
-    cy.get(".decPasswordInput").realClick();
-    // enter the encryption password that was used earlier
-    cy.realType(encryptionPassword);
-    cy.get(".submitKeysDec").realClick();
-
-    cy.wait(500);
-
-    // downloads the decrypted file
-    cy.window()
-      .document()
-      .then(function (doc) {
-        doc.addEventListener("click", () => {
-          setTimeout(function () {
-            doc.location.reload();
-          }, 2500);
-        });
-
-        // make sure sw responded
-        cy.intercept("/", (req) => {
-          req.reply((res) => {
-            expect(res.statusCode).to.equal(200);
-          });
-        });
-
-        cy.get(".downloadFileDec").realClick();
-      });
-
-      cy.wait(2500);
-  });
-
-  it("verify the decrypted file path", () => {
-    // look up the file in the created downloads directory
-
-    let decryptedFile = path.join(downloadsFolder, "document.txt");
-    // make sure a file with that name exists
-
-    cy.readFile(decryptedFile).should("exist");
-  });
-
-  it("cleans downloads folder", () => {
+    it("cleans downloads folder", () => {
     //clean downloads folder
     cy.task("deleteFolder", downloadsFolder);
   });

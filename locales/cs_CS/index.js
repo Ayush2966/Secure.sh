@@ -16,7 +16,7 @@ const cs_CS = {
   faq: "FAQ",
   technical_details: "Technické detaily",
   changelog: "Záznam změn",
-  donation_message: "Líbí se Vám hat.sh? Můžete projekt podpořit.",
+
 
   // Settings
   settings: "Nastvení",

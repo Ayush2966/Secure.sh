@@ -1,6 +1,6 @@
 {
-  "name": "hat.sh",
-  "version": "2.3.6",
+  "name": "secure.sh",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "browserify service-worker/sw.js -o public/service-worker.js && next dev",
@@ -25,7 +25,11 @@
     "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
+    "@types/cypress": "^1.1.3",
     "browserify": "^17.0.0",
+    "cypress": "^8.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-real-events": "^1.5.1",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6"
   }

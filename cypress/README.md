@@ -7,9 +7,9 @@
 
 <br>
 
-move to the hat.sh app root directory
+move to the secure.sh app root directory
 
-`cd hat.sh`
+`cd secure.sh`
 
 install cypress/dependencies:
 
