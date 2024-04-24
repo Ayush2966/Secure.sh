@@ -42,7 +42,7 @@ export default function NavAppBar() {
             
 
             <IconButton
-              href="https://github.com/Ayush2966"
+              href="https://github.com/Ayush2966/Secure.sh"
               target="_blank"
               rel="noopener"
             >
