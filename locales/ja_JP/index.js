@@ -16,7 +16,7 @@ const ja_JP = {
   faq: "FAQ",
   technical_details: "技術的な詳細",
   changelog: "変更履歴",
-  donation_message: "hat.shを気に入ってくれましたか? 寄付をすることでこのプロジェクトを支援できます。",
+  
 
   // Settings
   settings: "設定",
@@ -119,7 +119,7 @@ const ja_JP = {
   choose_files_dec: "復号化するファイルを選択",
   sender_key_loaded: "送信者の公開鍵が読み込まれました。暗号化されたファイルを選択してください。",
   recipient_key_loaded: "受信者の公開鍵が読み込まれました。暗号化するファイルを選択してください。",
-  file_not_encrypted_corrupted: "このファイルはhat.shを使用して暗号化されていないか、ファイルが破損している可能性があります！",
+  file_not_encrypted_corrupted: "このファイルはsecure.shを使用して暗号化されていないか、ファイルが破損している可能性があります！",
   old_version: "このファイルは古いバージョンのhat.shを使用して暗号化されています。v1アプリにアクセスして復号化することができます。",
   file_mixup: "選択されたファイルを復号化するには、暗号化時のパスワードもしくは公開鍵どちらか同じ方法を使用する必要があります。ファイルに適合する方法を選択してください。",
   enter_password_dec: "復号化パスワードを入力してください。",
