@@ -5,7 +5,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Container from "@material-ui/core/Container";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
+
 import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import VersionBadge from "./VersionBadge";
@@ -39,9 +39,7 @@ export default function NavAppBar() {
               <VersionBadge />
             </Typography>
 
-            <Button color="inherit" href="/about/" className={classes.button}>
-              {t("mkc")}
-            </Button>
+            
 
             <IconButton
               href="https://github.com/Ayush2966"
