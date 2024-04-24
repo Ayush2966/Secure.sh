@@ -55,7 +55,7 @@ Before installation make sure you are running [nodejs](https://nodejs.org/en/) a
 1. clone the github repository
 
 ```bash
-git clone https://github.com/Ayush2966
+git clone https://github.com/Ayush2966/Secure.sh
 ```
 
 2. move to the folder
