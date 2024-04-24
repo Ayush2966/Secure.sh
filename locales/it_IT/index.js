@@ -119,7 +119,7 @@ const it_IT = {
   choose_files_dec: "Scegli i file da decrittografare",
   sender_key_loaded: "La chiave pubblica del mittente è caricata, ora scegli il file crittografato.",
   recipient_key_loaded: "La chiave pubblica del destinatario è caricata, ora scegli un file da crittografare",
-  file_not_encrypted_corrupted: "Questo file non è stato crittografato con hat.sh o potrebbe essere corrotto!",
+  file_not_encrypted_corrupted: "Questo file non è stato crittografato con Secure.sh o potrebbe essere corrotto!",
   old_version: "Questo file è stato crittografato usando una vecchia versione di hat.sh, puoi decrittografarlo visitando l'app v1.",
   file_mixup: "I file seezionati per la decrittografia devono essere cifrati usando lo stesso metodo, tramite password oppure chiave pubblica. Scegli file che soddisfino questo requisito.",
   enter_password_dec: "Inserisci la password per decrittografare",
