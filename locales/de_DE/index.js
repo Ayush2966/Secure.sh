@@ -16,7 +16,7 @@ const de_DE = {
   faq: "FAQ",
   technische_details: "Technische Details",
   changelog: "Changelog",
-  donation_message: "Liebst du hat.sh? Unterstütze das Projekt mit einer Spende.",
+  
 
   // Settings
   settings: "Einstellungen",
