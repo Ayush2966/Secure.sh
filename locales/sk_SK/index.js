@@ -119,7 +119,7 @@ const sk_SK = {
   choose_files_dec: "Vyberte súbory na dešifrovanie",
   sender_key_loaded: "Verejný kľúč odosielateľa je načítaný, prosím vyberte zašifrovaný súbor.",
   recipient_key_loaded: "Verejný kľúč príjemcu je načítaný, prosím vyberte súbor, ktorý chcete zašifrovať.",
-  file_not_encrypted_corrupted: "Tento súbor nebol zašifrovaný pomocou hat.sh, alebo môže byť poškodený!",
+  file_not_encrypted_corrupted: "Tento súbor nebol zašifrovaný pomocou Secure.sh, alebo môže byť poškodený!",
   old_version: "Tento súbor bol zašifrovaný pomocou staršej verzie hat.sh. Tento súbor môžete dešifrovať v aplikácii v1.",
   file_mixup: "Súbory vybrané na dešifrovanie musia byť zašifrované rovnakým spôsobom, buď heslom alebo verejným kľúčom. Vyberte súbory, ktoré sa zhodujú.",
   enter_password_dec: "Zadajte heslo pre dešifrovanie",
