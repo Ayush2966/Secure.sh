@@ -16,7 +16,7 @@ const zh_CN = {
     faq: "问与答", // FAQ
     technical_details: "技术细节", // Technical-Details
     changelog: "更新日志", // Changelog
-    donation_message: "喜欢 hat.sh 吗？您可以捐赠来支持本项目", // Love hat.sh? You can donate to support the project.
+    donation_message: "喜欢 Secure.sh 吗？您可以捐赠来支持本项目", // Love hat.sh? You can donate to support the project.
   
     // Settings
     settings: "设置", // Settings

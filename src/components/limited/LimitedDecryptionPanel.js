@@ -668,7 +668,7 @@ const LimitedDecryptionPanel = () => {
             src="/assets/images/logo2.png"
             width="100"
             height="100"
-            alt="hat.sh logo"
+            alt="Secure.sh logo"
           />
           <br />
           {t("drop_file_dec")}
@@ -825,8 +825,8 @@ const LimitedDecryptionPanel = () => {
               {oldVersion && (
                 <Alert severity="error" style={{ marginTop: 15 }}>
                   {t("old_version")}{" "}
-                  <a href="https://v1.hat.sh/" target="_blank" rel="noreferrer">
-                    {"https://v1.hat.sh"}
+                  <a href="https://v1.Secure.sh/" target="_blank" rel="noreferrer">
+                    {"https://v1.Secure.sh"}
                   </a>
                 </Alert>
               )}

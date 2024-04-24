@@ -640,7 +640,7 @@ export default function EncryptionPanel() {
             src="/assets/images/logo2.png"
             width="100"
             height="100"
-            alt="hat.sh logo"
+            alt="Secure.sh logo"
           />
           <br />
           {t("drop_file_enc")}
