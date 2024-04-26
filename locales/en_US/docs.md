@@ -370,11 +370,6 @@ We use [zxcvbn](https://github.com/dropbox/zxcvbn) JS implementation to check th
 
 Once you visit the site and the page loads, it runs only offline.
 
-<hr style="height: 1px">
-
-### How can I contribute?
-
-Secure.sh is an open-source application. You can help make it better by making commits on GitHub. The project is maintained in my free time. [Donations](https://github.com/sh-dv/Secure.sh#donations) of any size are appreciated.
 
 <hr style="height: 1px">
 
