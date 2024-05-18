@@ -39,7 +39,7 @@ The libsodium library is used for all cryptographic algorithms. [Technical detai
 
 # [Installation](#installation)
 
----
+
 It's easy to self host and deploy Secure.sh, you can do that either with npm or docker
 
 If you wish to self host the app please follow these instructions:
